@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <%- include('partials/head') %> 
+</head>
+<body>
+<%- include('partials/menu') %>
+<%- include('partials/banner') %>
+<div class="container-fluid bg-3 text-center">    
+  <h3><%= page %></h3><br>
+    <!--MAIN CONTENT-->
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Hey, as you already know, my name is Lucianna Mendonca. I love to travel, cook, and watch movies.
+        I like to go out to taste different food, so I love when I can combine travel and food.</p>
+
+      <p>As a current student pursuing an Advanced Diploma in Software Engineering Technology at Centennial College, 
+         I've created this portfolio that showcases my projects and code, reflecting my dedication to crafting efficient, 
+         creative solutions in the ever-evolving world of software development. </p>  
+      
+      <p>If you're interested about my education and career experience, please, click on the button bellow:</p>
+      
+      <a href="./documents/my-resume.pdf" target="_blank"><button>Resume</button></a>
+      <a href="/service" ><button>Services</button></a>
+    </div>
+
+    <div class="col-sm-2">
+      <div class="my-image"><img src="./images/me.jpg" alt="my-image"></div>
+    </div>
+  </div>
+</div>
+</body>
+<%- include('partials/script') %>
+
+<%- include('partials/footer') %>
+
+<%- include('partials/bottom') %>
+</html>

@@ -1,0 +1,90 @@
+<head>
+    <%- include('partials/head') %> 
+</head>
+<body>
+   <%- include('partials/menu') %>
+   <%- include('partials/banner') %>
+  <div class="container-fluid bg-3 text-center">    
+    <h3><%= page %></h3><br>
+
+       <!--MAIN CONTENT-->
+    <div class="row">
+
+      <div class="col-sm-4">
+        <img src="/images/SRS-icon.jpg" alt="SRS Image">
+        <h3>SOFTWARE REQUIREMENTS SPECIFICATION</h3>
+        <p>Everything you need to quickly Plan, Design,
+          and Define your Software System.</p>
+        <a href="/contact"><button>Send message</button></a>
+      </div>
+
+      <div class="col-sm-4"> 
+        <img src="/images/web-dev-icon.jpg" alt="Web-Dev Image">
+        <h3>WEB DEVELOPMENT</h3>
+        <p>Meet your demanding deadlines with our services of 
+           Web Applications Development in Java and C#.</p>
+        <a href="/contact"><button>Send message</button></a>
+      </div>
+
+      <div class="col-sm-4">
+        <img src="/images/QA-testing-icon.jpg" alt="QA-testing Image"> 
+        <h3>QA & TESTING</h3>
+        <p>Automated software testing, so you can ensure the 
+          smooth operation of your software.</p>
+        <a href="/contact"><button>Send message</button></a>
+      </div>
+
+    </div>
+
+    <div class="tools-content">
+      <h3>Tools & Technologies</h3>
+    </div>      
+
+    <div class="col-sm-4"> 
+      <div class="tools-tech-list">
+        <img src="/images/language-icons.jpg" alt="Computer Language Image"> 
+        <h3>LANGUAGES</h3>
+        <ul class="list">
+          <li>Java</li>
+          <li>C#</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-sm-4"> 
+      <div class="framework-list"> 
+        <img src="/images/framework-icons.jpg" alt="Framework Image">     
+        <h3>FRAMEWORK</h3>
+        <ul class="list">
+          <li>EJB</li>
+          <li>NODEJS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-4"> 
+      <div class="database-list"> 
+        <img src="/images/database-icons.jpg" alt="Database Image">     
+        <h3>DATABASE MANAGEMENT</h3>
+        <ul class="list">
+          <li>NoSQL</li>
+          <li>MySQL</li>
+          <li>Oracle SQL</li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+<%- include('partials/script') %>
+   
+<%- include('partials/footer') %>
+   
+<%- include('partials/bottom') %>
+
+</html>
