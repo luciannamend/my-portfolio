@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <%- include('partials/head') %> 
-</head>
-<body>
-<%- include('partials/menu') %>
-<%- include('partials/banner') %>
-<div class="container-fluid bg-3 text-center">
-   
-  <h3><%= page %></h3><br>
+  <head>
+    <%- include('partials/head') %> 
+  </head>
 
-  <!--MAIN CONTENT-->
-  <div class="welcome-message">
-    
-    <h1>Welcome to My Portfolio</h1>
-      <p>Hello, there! I'm Lucianna, a passionate Software Engineering student and this is  
-        my Portfolio. </p>
-
-      <p>Here, you'll find a collection of my work with a solid foundation in software engineering
-        principles, and programming languages including Java, C#, JavaScript, HTML, and CSS.</p>
-      
-      <p>Thanks for visiting, and I hope you find inspiration in what you see.</p>
-      
-    <div class="bottom-to-about-page">
-      <a href="/about"><button>About Me</button></a>
+  <body>
+    <%- include('partials/menu') %>
+    <%- include('partials/banner') %>
+    <div class="container-fluid bg-3 text-center">    
+      <h3><%= page %></h3><br>
+      <!--MAIN CONTENT-->
+      <div class="welcome-message">      
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello, there! I'm Lucianna, a passionate Software Engineering student and this is  
+          my Portfolio. 
+        </p>
+        <p>Here, you'll find a collection of my work with a solid foundation in software engineering
+          principles, and programming languages including Java, C#, JavaScript, HTML, and CSS.
+        </p>        
+        <p>Thanks for visiting, and I hope you find inspiration in what you see.</p>        
+        <div class="bottom-to-about-page">
+          <a href="/about"><button>About Me</button></a>
+        </div>
+      </div>
     </div>
-
-  </div>
-
-
-</div>
-</body>
-<%- include('partials/script') %>
-
-<%- include('partials/footer') %>
-
-<%- include('partials/bottom') %>
+  </body>
+  <%- include('partials/script') %>
+  <%- include('partials/footer') %>
 </html>

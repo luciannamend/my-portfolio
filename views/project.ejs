@@ -1,29 +1,51 @@
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <%- include('partials/head') %> 
-   </head>
-   <body>
-   <%- include('partials/menu') %>
-   <%- include('partials/banner') %>
-   <div class="container-fluid bg-3 text-center">    
-     <h3><%= page %></h3><br>
-       <!--MAIN CONTENT-->
-     <div class="row">
-       <div class="col-sm-4">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         
-       </div>
-       <div class="col-sm-4"> 
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       </div>
-       <div class="col-sm-4"> 
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-       </div>
-     </div>
-   </div>
-   </body>
-   <%- include('partials/script') %>
-   
-   <%- include('partials/footer') %>
-   
-   <%- include('partials/bottom') %>
-   </html>
+  </head>
+  <body>
+    <%- include('partials/menu') %>
+    <%- include('partials/banner') %>
+    <div class="container-fluid bg-3 text-center">    
+      <h3><%= page %></h3><br>
+      <!--MAIN CONTENT-->
+      <div class="projects-content">
+        <div class="project-title">
+          <h3>SHOPPING WEBSITE PROJECT</h3>
+        </div>
+        <div class="project-1">
+          <img src="/images/art-galery-website.jpg" alt="ArtGaleryWebsite Image">
+          <p>Developed in HTML and CSS, the Art Gallery website provides an immersive 
+            platform for art lovers to explore a wide variety of artworks from the comfort
+            of their own screens.Art Gallery is a dynamic and visually captivating website 
+            that brings the world of art to your screen. The platform was meticulously crafted 
+            to showcase a diverse range of artworks sourced from JSON files, providing users
+            with an immersive experience that seamlessly blends technology and creativity.
+          </p>       
+        </div>
+        <div class="project-title">
+          <h3>GAME PROJECT </h3>
+        </div>
+        <div class="project-2">           
+          <img src="/images/game-web.jpg" alt="Web Game Image">
+          <p>The interactive game 'Whack-a-Roach' was developed using Javascrip and CSS. It is 
+            fast-paced game where you chase a hopping roach, scoring points with each successful click. 
+            The game gets tougher as the roach hops faster, but you can reset the speed with the 
+            'Reset Speed' button. 
+          </p>
+        </div>
+        <div class="project-title">
+          <h3>FAKE COLLEGE FORM PROJECT </h3>
+        </div>
+        <div class="project-3"> 
+          <img src="/images/form-website-image.jpg" alt="College Website Image">
+          <p>This fake college website was developed using HMTL and CSS. It was created to develop skills with
+            all form options. Very simple, but efficent.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('partials/script') %>   
+  <%- include('partials/footer') %>   
+</html>

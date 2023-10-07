@@ -1,7 +1,8 @@
 /*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
   color: rgb(220, 225, 225);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 h1{
   margin-bottom: 80px;
@@ -106,6 +107,73 @@ color: rgb(59, 60, 60) !important;
   margin: 0;
 }
 
+/*PROJECT PAGE*/
+.projects-content .project-title > h3{
+  padding: 7%;
+  margin: 0;
+  margin-top: 1%;  
+  background-color: rgb(104, 103, 103);
+}
+.projects-content .project-1{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgb(104, 103, 103);
+  font-family: Montserrat;
+  padding: 0 0 65px;
+}
+.projects-content .project-1 > p{
+  display: inline-block;
+  margin: 2%;
+  padding: 10%;
+}
+.projects-content .project-1 > img{
+  width: 40%;
+  margin: 5%;
+}
+.projects-content .project-2{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgb(104, 103, 103);
+  font-family: Montserrat;
+  padding: 0 0 65px;
+}
+.projects-content .project-2 > p{
+  display: inline-block;
+  margin: 2%;
+  padding: 10%;
+}
+.projects-content .project-2 > img{
+  width: 40%;
+  margin: 5%;
+}
+.projects-content .project-3{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  position: relative;
+  background-color: rgb(104, 103, 103);
+  font-family: Montserrat;
+  padding: 0 0 65px;
+}
+.projects-content .project-3 > p{
+  display: inline-block;
+  margin: 2%;
+  padding: 10%;
+}
+.projects-content .project-3 >img{
+  margin: 5%;
+}
+
 /*SERVICES PAGE*/
 .tools-content >h3 {
   padding-top: 10%;
@@ -145,7 +213,6 @@ color: rgb(59, 60, 60) !important;
   font-family: Montserrat;
   padding: 40px 0 65px;
 }
-
 .contact-form {
   position: relative;
   width: 150%;
