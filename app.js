@@ -1,3 +1,10 @@
+/*
+File: app.js
+Student's Name: LUCIANNA MENDONCA DOMINGUES
+Student ID: 301307882
+Date: OCTOBER 6, 2023
+*/
+
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');

@@ -1,3 +1,10 @@
+/*
+File: contact.js
+Student's Name: LUCIANNA MENDONCA DOMINGUES
+Student ID: 301307882
+Date: OCTOBER 6, 2023
+*/
+
 document.addEventListener("DOMContentLoaded", function () {
 
     // Get the contact form element

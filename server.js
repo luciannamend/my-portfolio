@@ -1,5 +1,13 @@
 #!/usr/bin/env node
 
+/*
+File: server.js
+Student's Name: LUCIANNA MENDONCA DOMINGUES
+Student ID: 301307882
+Date: OCTOBER 6, 2023
+*/
+
+
 /*Module dependencies.*/
 var app = require('./app');
 var debug = require('debug')('mywebsite:server');
